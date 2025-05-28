@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .custom-navbar {
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-brand svg {
+    height: 60px;
+    width: 60px;
+  }
+  
+  .brand-text {
+    font-size: 2rem; /* Bigger text */
+    font-weight: bold;
+    font-family: 'Rock Salt';
+  }
+  
+
+  
+  #intro-page {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e'); /* Replace if needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body {
+    background: #fdfdfd;
+    font-family: 'Mulish', sans-serif;
+    padding-top: 80px;
+  }
+  
+  .custom-navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+  }
+  
+  .contact-page {
+    max-width: 700px;
+    padding: 2rem 1rem;
+    
+  }
+  
+  .contact-page h1,
+  .contact-page h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    background: #ffb56a;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 100%;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background: #fd7302;
+  }
+
+  .h1main {
+    font-family: "Rock Salt";
+    font-weight: 600;
+    font-style: bold;
+  }
+  
+
+  .about-section {
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .about-section h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .about-section p {
+    font-family: 'Poppins', sans-serif; /* Nice clean alternative */
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+  }
+
+  .pricing-section h1 {
+    font-family: 'Rock Salt', cursive;
+    color: #333;
+  }
+  
+  .pricing-section h3 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0.5rem;
+    color: #222;
+  }
+  
+  .pricing-section p {
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+    font-size: 1rem;
+  }
